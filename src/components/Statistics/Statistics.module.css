@@ -1,0 +1,56 @@
+h1,
+h2 {
+  margin: 0;
+}
+.statistics {
+  width: 500px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  border: 1px solid rgb(111, 81, 121);
+  border-radius: 10px;
+  background-color: rgb(230, 223, 238);
+  box-shadow: 5px 5px 15px 5px rgba(193, 159, 194, 0.637);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 50px;
+  color: rgb(12, 11, 11);
+}
+
+.statList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.item {
+  width: 100px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  padding-bottom: 10px;
+}
+.label:hover,
+.label:focus {
+  color: fuchsia;
+}
+
+.percentage {
+  display: block;
+}
+.percentage:hover,
+.percentage:focus {
+  color: fuchsia;
+  cursor: pointer;
+}
