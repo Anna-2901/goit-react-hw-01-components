@@ -1,0 +1,47 @@
+.item {
+  display: flex;
+  height: 100px;
+  width: 500px;
+  align-items: center;
+  box-shadow: 5px 5px 15px 5px rgb(199, 190, 216);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.status {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.true {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.false {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+.name {
+  font-weight: 900;
+  font-size: x-large;
+  padding-left: 20px;
+}
+.avatar {
+  padding-left: 20px;
+}

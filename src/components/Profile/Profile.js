@@ -1,10 +1,17 @@
 import React from "react";
 import s from "./Profile.module.css";
-import defaultImg from "./defaultImg.jpg";
+import defaultImg from "../../defaultImg.jpg";
 import PropTypes from 'prop-types';
 
 
-const Profile =({ avatar, name, tag, location, followers, views, likes }) => {
+const Profile = props => {
+  const {
+    name,
+    avatar,
+    tag,
+    location,
+    stats: { followers, views, likes },
+  } = props;
   return (
     <div className={s.profile}>
       <div className={s.description}>
